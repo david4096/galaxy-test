@@ -1,4 +1,5 @@
 version: 1.2
 workflows:
 - subclass: Galaxy
+  publish: True
   primaryDescriptorPath: /variation-reporting.ga
