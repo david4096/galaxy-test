@@ -5,3 +5,4 @@ workflows:
     primaryDescriptorPath: /variation-reporting.ga
 notebooks:
   - path: ./preprocess_LORIS.ipynb
+    publish: True
