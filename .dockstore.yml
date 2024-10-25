@@ -1,5 +1,7 @@
 version: 1.2
 workflows:
-- subclass: Galaxy
-  publish: True
-  primaryDescriptorPath: /variation-reporting.ga
+  - subclass: Galaxy
+    publish: True
+    primaryDescriptorPath: /variation-reporting.ga
+notebooks:
+  - path: ./preprocess_LORIS.ipynb
